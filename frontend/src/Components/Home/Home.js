@@ -38,7 +38,7 @@ function Home() {
           <div className="background"></div>
         </div>
         <footer className="home-footer">
-          <p>&copy; 2021 BookHub. All Rights Reserved.</p>
+          <p>&copy; 2025 BookHub. All Rights Reserved.</p>
         </footer>
       </div>
     </>
