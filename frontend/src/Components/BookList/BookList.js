@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import axios from 'axios';
 import "./booklist.css";
 
 function BookList({ books, loading }) {
@@ -14,19 +13,7 @@ function BookList({ books, loading }) {
     setSelectedBook(null);
   };
 
-  const saveBook = async (book) => {
-    try {
-      await axios.post('/api/books/save', {
-        title: book.volumeInfo.title,
-        authors: book.volumeInfo.authors,
-        description: book.volumeInfo.description,
-      });
-      alert('Book saved successfully');
-    } catch (error) {
-      console.error('Error saving book:', error);
-      alert('Failed to save book');
-    }
-  };
+
 
   if (loading) {
     return <div>Loading...</div>;
@@ -61,7 +48,6 @@ function BookList({ books, loading }) {
                 <button onClick={() => handleSeeMore(book)}>See More</button>
               )}
             </p>
-            <button onClick={() => saveBook(book)}>Save Book</button>
           </div>
         ))}
       </div>
