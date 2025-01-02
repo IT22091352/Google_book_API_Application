@@ -1,6 +1,6 @@
 {
 
-  "homepage": "https://IT22091352.github.io/Google_book_API_Application",
+
   "name": "find_book",
   "version": "0.1.0",
   "private": true,
@@ -21,16 +21,12 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
-  },
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
