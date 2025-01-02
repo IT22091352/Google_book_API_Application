@@ -25,7 +25,7 @@ const Navbar = () => {
           <ul>
             
             <li>
-              <NavLink to="/dashboard">DashBoard</NavLink>
+              <NavLink to="/">DashBoard</NavLink>
             </li>
             <li>
               <NavLink to="/contact">Contact</NavLink>

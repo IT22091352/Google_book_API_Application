@@ -1,0 +1,19 @@
+.footer{
+    background: linear-gradient(135deg, #000000, #613819); /* Gradient background */
+    padding: 20px;
+    margin-top: 40px;
+    color: #fff; /* White text color */
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer p{
+    margin: 0;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

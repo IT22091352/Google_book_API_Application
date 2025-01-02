@@ -29,7 +29,6 @@ function App() {
 
   return (
     <Router>
-      
       <Routes>
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
@@ -41,7 +40,9 @@ function App() {
             <BookList books={books} loading={loading} />
           </div>
         } />
+       
       </Routes>
+
     </Router>
   );
 }

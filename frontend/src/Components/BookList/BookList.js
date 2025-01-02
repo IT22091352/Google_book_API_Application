@@ -20,10 +20,17 @@ function BookList({ books, loading }) {
   }
 
   if (!books || books.length === 0) {
-    return <div>No books found</div>;
+    return <div style={
+      { textAlign: "center", 
+        color: "#fff",
+        fontSize: "30px",
+        backgroundColor: "black",
+      }
+    }>No books found</div>;
   }
 
   return (
+    <>
     <div className="book-list-container">
       <h2>Your search results</h2>
       <div className="book-list">
@@ -50,6 +57,7 @@ function BookList({ books, loading }) {
             </p>
           </div>
         ))}
+        
       </div>
 
       {/* Popup for Full Description */}
@@ -62,7 +70,10 @@ function BookList({ books, loading }) {
           </div>
         </div>
       )}
+      
     </div>
+    </>
+    
   );
 }
 

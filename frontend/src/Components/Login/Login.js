@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import './login.css';
-import NavbarBefore from '../Navbar/NavbarBefore' 
+import NavbarBefore from '../Navbar/NavbarBefore';
 
 const Login = () => {
   const [inputs, setInputs] = useState({
@@ -42,38 +42,43 @@ const Login = () => {
       .then((res) => res.data);
   };
 
-  return ( 
-  <><NavbarBefore/>
-    <div className="login-container">
-      
-      <form onSubmit={handleSubmit}>
-        <h2>Login</h2>
-        <div className="form-group">
-          <label htmlFor="email">Email</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            value={inputs.email}
-            onChange={handleInputChange}
-            required
-          />
+  return (
+    <>
+      <NavbarBefore />
+      <div className="login-page">
+        <div className="login-image">
+          <img src="/path/to/your/image.jpg" alt="Login" />
         </div>
-        <div className="form-group">
-          <label htmlFor="password">Password</label>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            value={inputs.password}
-            onChange={handleInputChange}
-            required
-          />
+        <div className="login-container">
+          <form onSubmit={handleSubmit}>
+            <h2>Login</h2>
+            <div className="form-group">
+              <label htmlFor="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                value={inputs.email}
+                onChange={handleInputChange}
+                required
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                value={inputs.password}
+                onChange={handleInputChange}
+                required
+              />
+            </div>
+            <button type="submit">Login</button>
+            <p>Don't have an account? <a href="/register">Register</a></p>
+          </form>
         </div>
-        <button type="submit">Login</button>
-        <p>Don't have an account? <a href="/register">Register</a></p>
-      </form>
-    </div>
+      </div>
     </>
   );
 };

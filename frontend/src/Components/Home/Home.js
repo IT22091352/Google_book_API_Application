@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import NavbarBefore from '../Navbar/NavbarBefore'
+import Footer from '../Footer/Footer'
 
 function Home() {
   return (
@@ -32,15 +33,9 @@ function Home() {
         </section>
       </div>
       <div>
-        <div>
-          <h1>BookHub</h1>
-          <p>Your one-stop destination for all your book needs.</p>
-          <div className="background"></div>
-        </div>
-        <footer className="home-footer">
-          <p>&copy; 2025 BookHub. All Rights Reserved.</p>
-        </footer>
+      <Footer/>
       </div>
+      
     </>
   );
 }
