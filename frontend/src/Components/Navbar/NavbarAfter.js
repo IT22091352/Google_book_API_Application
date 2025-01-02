@@ -16,7 +16,7 @@ const NavbarAfter = () => {
       <div className="container">
         <div className="logo" style={{ display: 'flex', alignItems: 'center' }}>
           <img src={Brand} alt="Brand Logo" style={{ width: '50px', height: '50px' }} />
-          <h2>Book Store</h2>
+          <h2>Sammani Book Store</h2>
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
           <img src={menu} alt="Menu Icon" style={{ width: '30px', height: '30px' }} />
