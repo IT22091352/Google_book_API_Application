@@ -15,7 +15,7 @@ function App() {
 
   const searchBooks = async (query) => {
     setLoading(true);
-    const API_KEY = "AIzaSyDx--Zl_wKWOGRIZZCSWGBY00Tzg_LdIsw";
+    const API_KEY = process.env.REACT_APP_API_KEY;    
     const url = `https://www.googleapis.com/books/v1/volumes?q=${query}&key=${API_KEY}`;
     
     try {
