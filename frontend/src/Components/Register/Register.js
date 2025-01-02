@@ -42,7 +42,7 @@ const Register = () => {
 
   return (
 <> <NavbarbarBefore/>
-    <div className="register-container">
+    <div className="register-container ">
    
 
       <h2>Register</h2>
