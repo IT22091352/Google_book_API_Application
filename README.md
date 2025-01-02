@@ -18,10 +18,7 @@ BookHub is a web application that allows users to search for books, view book de
 - **Google Books API**: An API for fetching book data.
 - **CSS**: Styling the application.
 
-## Getting Started
-
 ### Prerequisites
-(https://github.com/user-attachments/assets/f6faac34-723e-4fcf-9ee1-45e6db570865)
 
 - Node.js and npm installed on your machine.
   
