@@ -1,0 +1,84 @@
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Ensure text is readable on the background */
+  }
+  
+  .home-header {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient background */
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  
+  .home-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #fff; /* White text color */
+  }
+  
+  .home-header p {
+    font-size: 1.2rem;
+    color: #fff; /* White text color */
+  }
+  
+  .home-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .home-card {
+    background: linear-gradient(135deg, #43cea2, #185a9d); /* Gradient background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    color: #fff; /* White text color */
+  }
+  
+  .home-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .home-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .home-card p {
+    font-size: 1rem;
+  }
+  
+  .home-footer {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    color: #fff; /* White text color */
+  }
+  
+  .home-footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .background {
+    background-image: url('../../images/about-img.jpg'); /* Add your background image path here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px; /* Adjust height as needed */
+    border-radius: 10px;
+    margin-top: 20px;
+  }
