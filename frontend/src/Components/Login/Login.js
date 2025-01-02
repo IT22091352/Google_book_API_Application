@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import './login.css';
 import NavbarBefore from '../Navbar/NavbarBefore';
+import Footer from '../Footer/Footer';
 
 const Login = () => {
   const [inputs, setInputs] = useState({
@@ -79,6 +80,7 @@ const Login = () => {
           </form>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };
