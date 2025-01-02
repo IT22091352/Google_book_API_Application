@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Google_book_API_Application/static/css/main.4366db95.css",
-    "main.js": "/Google_book_API_Application/static/js/main.4b33883e.js",
-    "static/media/library-img.jpg": "/Google_book_API_Application/static/media/library-img.4c355c0290b94d1fe920.jpg",
-    "static/media/about-img.jpg": "/Google_book_API_Application/static/media/about-img.b7521da541400a1eefdb.jpg",
-    "static/media/logo.png": "/Google_book_API_Application/static/media/logo.dbd3f97aa53850a0bd7e.png",
-    "index.html": "/Google_book_API_Application/index.html",
-    "main.4366db95.css.map": "/Google_book_API_Application/static/css/main.4366db95.css.map",
-    "main.4b33883e.js.map": "/Google_book_API_Application/static/js/main.4b33883e.js.map"
+    "main.css": "/IT22091352.github.io/Google_book_API_Application/static/css/main.a25608bf.css",
+    "main.js": "/IT22091352.github.io/Google_book_API_Application/static/js/main.e03c0503.js",
+    "static/media/library-img.jpg": "/IT22091352.github.io/Google_book_API_Application/static/media/library-img.4c355c0290b94d1fe920.jpg",
+    "static/media/about-img.jpg": "/IT22091352.github.io/Google_book_API_Application/static/media/about-img.b7521da541400a1eefdb.jpg",
+    "static/media/logo.png": "/IT22091352.github.io/Google_book_API_Application/static/media/logo.dbd3f97aa53850a0bd7e.png",
+    "index.html": "/IT22091352.github.io/Google_book_API_Application/index.html",
+    "main.a25608bf.css.map": "/IT22091352.github.io/Google_book_API_Application/static/css/main.a25608bf.css.map",
+    "main.e03c0503.js.map": "/IT22091352.github.io/Google_book_API_Application/static/js/main.e03c0503.js.map"
   },
   "entrypoints": [
-    "static/css/main.4366db95.css",
-    "static/js/main.4b33883e.js"
+    "static/css/main.a25608bf.css",
+    "static/js/main.e03c0503.js"
   ]
 }
