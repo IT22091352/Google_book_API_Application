@@ -12,6 +12,7 @@ function SearchBar({ onSearch }) {
   };
 
   return (
+    <>
     <div className='holder'>
       <header className='header'>
         <div className='header-content flex flex-c text-center text-white'>
@@ -32,6 +33,7 @@ function SearchBar({ onSearch }) {
 
       
     </div>
+    </>
   );
 }
 
